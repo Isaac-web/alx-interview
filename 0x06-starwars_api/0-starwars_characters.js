@@ -34,4 +34,5 @@ const getMovieCharaterUrls = (movieId) => {
   });
 };
 
-getMovieCharaterUrls(3);
+const movieId = process.argv.slice(2)[0] || '1';
+getMovieCharaterUrls(movieId);
