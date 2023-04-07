@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Prime Game"""
 
+
 def primes(n):
     """
     A helper function that returns a list of prime
